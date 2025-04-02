@@ -16,7 +16,6 @@ playButton.addEventListener("click", function(){
 	video.play();
 
 	// Display the volume level onto the page, use ".textContent"
-	video.volume = 1;
 	let volumeInfo = document.getElementById("volume");
 	volumeInfo.textContent = video.volume * 100 + "%";
 });
